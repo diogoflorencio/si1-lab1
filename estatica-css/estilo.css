@@ -1,0 +1,30 @@
+a{
+	color: black;
+	font-family: serif;
+	font-style: oblique;
+	font-size: 18px;
+
+}
+label, input{
+	display: inline-block;
+}
+input[type=submit]{
+	color: white;
+	font-size: 22px;
+	cursor: pointer;
+	background: purple;
+	padding: 20px 10px;
+}
+body{
+	text-align: center;
+	color: purple;
+	font-family:cursive;
+}
+
+input[type=submit]:hover{
+	background: green;
+}
+ #fim{
+ 	color: green;
+ 	font-size: 50px;
+ }
