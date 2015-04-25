@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Obrigado</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/estiloMatriculaRealizada.css"/>
+
+</head>
+<body>
+<div class="jumbotron">
+    <h1><center>Cadastro de disciplinas</center></h1><br><br>
+    <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Adicione as disciplinas que você aprendeu ou gostaria de aprender</h4>
+                    </div>
+                    <div class="panel-body">
+                        <form id="addConteudo" class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="conteudo" placeholder="Novo conteúdo"
+                                           autofocus required><br>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" value="adicionar">Adicionar</button>
+                        </form>
+
+                        <div class="row" id="listas">
+                            <div class="col-md-6">
+                                <br>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Gostaria de aprender</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul class="list-group" id="lista_aprender"></ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <br>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Aprendi</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul class="list-group" id="lista_aprendido"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <br><br><br><center><p><a class="btn btn-primary btn-lg" href="fim.html" role="button">Finalizar cadastro</a></p></center>
+    </div>
+</div>
+
+<!--Initializing Scripts-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/listaDinamica.js" charset="utf-8"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
